@@ -226,7 +226,7 @@ c_overlay::c_overlay() :
 }
 
 c_overlay::~c_overlay() {
-    set_mouse_passthrough(false); // Ensure mouse passthrough is disabled on exit
+    set_mouse_passthrough(true); // Ensure mouse passthrough is disabled on exit
     dest_imgui();
     dest_device();
 
